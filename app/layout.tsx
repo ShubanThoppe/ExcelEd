@@ -5,6 +5,7 @@ import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
+import ScrollToTop from "@/components/scroll-to-top" // ✅ add this
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -34,6 +35,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
+          <ScrollToTop /> {/* ✅ scroll to top on route change */}
           {children}
           <Footer />
         </ThemeProvider>
