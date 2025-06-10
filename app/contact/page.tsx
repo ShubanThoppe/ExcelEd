@@ -110,7 +110,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#0a2e3b] mb-1">Phone Number</h3>
-                  <p className="text-gray-600">+353 1 234 5678</p>
+                  <p className="text-gray-600">+353 89 246 0860</p>
                 </div>
               </div>
 

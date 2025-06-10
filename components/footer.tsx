@@ -22,17 +22,13 @@ export default function Footer() {
               Providing premium private tutoring services to help students achieve academic excellence.
             </p>
             <div className="flex gap-4">
-              <Link href="#" className="text-white/70 hover:text-[#e6c78b] transition-colors">
+              <Link href="https://www.facebook.com/profile.php?id=61577109722723" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#e6c78b] transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-white/70 hover:text-[#e6c78b] transition-colors">
+              <Link href="https://www.instagram.com/ed.excelgrinds?utm_source=qr&igsh=OW40cnkycm5ncnl6" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#e6c78b] transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="text-white/70 hover:text-[#e6c78b] transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
               </Link>
             </div>
           </div>
@@ -99,7 +95,7 @@ export default function Footer() {
 
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-[#e6c78b] flex-shrink-0" />
-                <span className="text-white/70">+353 1 234 5678</span>
+                <span className="text-white/70">+353 89 246 0860</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#e6c78b] flex-shrink-0" />

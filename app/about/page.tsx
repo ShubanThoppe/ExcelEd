@@ -27,15 +27,10 @@ export default function AboutPage() {
               trusted educational partner for students across Ireland.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Our founder, Anish Patel, started the company after recognizing a gap in the educational system. Many
-              students were struggling not because they lacked ability, but because they needed a different approach to
-              learning. This insight led to the development of our personalized tutoring methodology that adapts to each
-              student's unique learning style.
+              Founded in 2022, Ed Excel began as a small tutoring initiative with a mission to bridge gaps in traditional education. Our founder, Anish Thoppe, recognised that many students struggled not due to a lack of effort, but because of rigid, one-size-fits-all teaching methods. This insight led to the creation of a tailored tutoring approach that adapts to each student’s unique learning style, pace, and goals
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Today, we continue to uphold our founding principles while expanding our services to reach more students
-              and subjects. Our team of dedicated tutors shares our passion for education and commitment to student
-              success.
+              Over the years, we’ve grown into a trusted educational partner, supporting 40+ students in achieving their academic potential. Our expert tutors combine subject mastery with innovative teaching strategies, ensuring every learner receives the individualised attention they deserve.
             </p>
           </div>
           <div className="flex-1">
@@ -122,18 +117,17 @@ export default function AboutPage() {
           {/* Team Member 1 */}
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="h-64 relative">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Anish Patel" fill className="object-cover" />
+              <Image src="/placeholder.svg?height=400&width=600" alt="Anish Thoppe" fill className="object-cover" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-[#0a2e3b] mb-1">Anish Patel</h3>
+              <h3 className="text-xl font-semibold text-[#0a2e3b] mb-1">Anish Thoppe</h3>
               <p className="text-[#0a2e3b]/70 mb-3">Founder & Mathematics Tutor</p>
               <p className="text-gray-600 mb-4">
-                With over 10 years of teaching experience and a Master's in Mathematics, Anish specializes in making
-                complex concepts accessible to all students.
+                with over 35 students of teaching experience and a through understanding of the current leaving cert, he specializes in simplifying complex topics with flexible, stress-free methods
               </p>
               <div className="text-sm text-[#0a2e3b]/70">
-                <div className="mb-1">Specialties: Higher Level Mathematics, Applied Mathematics</div>
-                <div>Education: M.Sc. Mathematics, Trinity College Dublin</div>
+                <div className="mb-1">Specialties: Higher Level Mathematics, HPAT</div>
+                <div>Education: Medicine, University College Dublin</div>
               </div>
             </div>
           </div>
