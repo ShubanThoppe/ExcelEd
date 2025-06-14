@@ -3,13 +3,12 @@ import { Star } from "lucide-react"
 
 interface TestimonialCardProps {
   name: string
-  school: string
   image: string
   quote: string
   subject: string
 }
 
-export default function TestimonialCard({ name, school, image, quote, subject }: TestimonialCardProps) {
+export default function TestimonialCard({ name, image, quote, subject }: TestimonialCardProps) {
   return (
     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/15 transition-colors">
       <div className="flex items-center gap-4 mb-4">
@@ -24,7 +23,6 @@ export default function TestimonialCard({ name, school, image, quote, subject }:
         </div>
         <div>
           <h4 className="font-semibold">{name}</h4>
-          <p className="text-sm text-white/70">{school}</p>
         </div>
       </div>
       <div className="flex mb-4">

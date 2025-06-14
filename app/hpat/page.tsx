@@ -137,13 +137,13 @@ export default function HPATPage() {
                         <div className="flex justify-center mb-8">
                             <TabsList className="bg-white shadow-md rounded-xl overflow-hidden">
                                 <TabsTrigger value="section1" className="text-sm md:text-base px-4 py-2 transition-all duration-300 ease-in-out data-[state=active]:bg-[#e6c78b] data-[state=active]:text-[#0a2e3b] data-[state=active]:font-semibold">
-                                    Section 1: Logical Reasoning
+                                    Section 1
                                 </TabsTrigger>
                                 <TabsTrigger value="section2" className="text-sm md:text-base px-4 py-2 transition-all duration-300 ease-in-out data-[state=active]:bg-[#e6c78b] data-[state=active]:text-[#0a2e3b] data-[state=active]:font-semibold">
-                                    Section 2: Interpersonal
+                                    Section 2
                                 </TabsTrigger>
                                 <TabsTrigger value="section3" className="text-sm md:text-base px-4 py-2 transition-all duration-300 ease-in-out data-[state=active]:bg-[#e6c78b] data-[state=active]:text-[#0a2e3b] data-[state=active]:font-semibold">
-                                    Section 3: Non-Verbal
+                                    Section 3
                                 </TabsTrigger>
                             </TabsList>
                         </div>

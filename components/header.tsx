@@ -95,7 +95,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link href="/contact">
-                <Button className="bg-[#0a2e3b] hover:bg-[#0a2e3b]/90 mt-4 w-full">
+                <Button className="bg-[#0a2e3b] hover:bg-[#0a2e3b]/90 text-white font-medium">
                   Book a Session
                 </Button>
               </Link>

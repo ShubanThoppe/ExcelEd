@@ -277,7 +277,7 @@ export default function Home() {
                   <div className="w-4 h-4 rounded-full bg-[#e6c78b] flex items-center justify-center mr-2 flex-shrink-0">
                     <Check className="h-3 w-3 text-[#0a2e3b]" />
                   </div>
-                  Practice tests & timing strategies
+                  Timing strategies
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
                   <div className="w-4 h-4 rounded-full bg-[#e6c78b] flex items-center justify-center mr-2 flex-shrink-0">
@@ -321,25 +321,22 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TestimonialCard
-              name="Sarah O'Connor"
-              school="St. Mary's Secondary School"
+              name="Gavin"
               image="/placeholder.svg?height=100&width=100"
-              quote="The tutoring I received helped me improve my maths grade from a C to an A. The personalized approach made all the difference."
+              quote="Anish is a great tutor that cares for your growth in academics while fairly pricing his grinds. Criminally underrated and would definitely recommend."
               subject="Mathematics"
             />
             <TestimonialCard
-              name="James Murphy"
-              school="Blackrock College"
+              name="Drey"
               image="/placeholder.svg?height=100&width=100"
-              quote="I struggled with physics for years until I started with ExcelEd. The concepts are now clear, and I feel confident going into my exams."
+              quote="Incredible knowledge on every topic, very personal lessons and understands where students need to improve and what they are good at. Student-focused lessons."
               subject="Physics"
             />
             <TestimonialCard
-              name="Emma Walsh"
-              school="Alexandra College"
+              name="Akhil"
               image="/placeholder.svg?height=100&width=100"
-              quote="The biology tutoring was exceptional. Complex topics were broken down in a way that made them easy to understand and remember."
-              subject="Biology"
+              quote="I started doing chemistry grinds with Anish at the start of 6th year and I can really see an improvement in my grades."
+              subject="Chemistry"
             />
           </div>
 
